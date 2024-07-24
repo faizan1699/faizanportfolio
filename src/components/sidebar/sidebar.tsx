@@ -5,6 +5,8 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const Sidebar = () => {
+  
+  const pathUrl = usePathname();
   const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
@@ -14,7 +16,6 @@ const Sidebar = () => {
     setOpen(false);
   };
 
-  const pathUrl = usePathname();
 
   return (
     <aside className={`aside ${open ? "open" : ""}`}>
@@ -24,7 +25,7 @@ const Sidebar = () => {
       <div className="aside-inner">
         <div className="logo">
           <Link href="/" onClick={handleClose}>
-            Logo
+            Faizan
           </Link>
         </div>
         <ul className="nav">
