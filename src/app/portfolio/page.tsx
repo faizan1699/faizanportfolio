@@ -2,9 +2,9 @@ import { NextPage } from "next";
 
 // Sample data representing portfolio items
 const portfolioData = [
-  { imgSrc: "/imgs/portfolio/1.jpg", category: "web development", title: "Web Design" },
-  { imgSrc: "/imgs/portfolio/2.jpg", category: "web development", title: "Web Design" },
-  { imgSrc: "/imgs/portfolio/3.jpg", category: "web development", title: "Web Design" },
+  { imgSrc: "/imgs/portfolio/1.jpg", category: "web development", title: "Web development" },
+  { imgSrc: "/imgs/portfolio/2.jpg", category: "web development", title: "Web development" },
+  { imgSrc: "/imgs/portfolio/3.jpg", category: "web development", title: "Web development" },
   { imgSrc: "/imgs/portfolio/4.jpg", category: "graphics", title: "graphics" },
   { imgSrc: "/imgs/portfolio/5.jpg", category: "wordpress", title: "Wordpress" },
   { imgSrc: "/imgs/portfolio/6.jpg", category: "wordpress", title: "Wordpress" },
