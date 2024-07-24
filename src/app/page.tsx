@@ -8,11 +8,11 @@ export default async function Home() {
           <div className="intro">
             <img
               src="/imgs/alsiam.png"
-              alt="Al Siam Profile"
+              alt="Faizan Rasheed Profile"
               className="shadow-dark"
             />
-            <h1>Your Name</h1>
-            <p>Your expertise</p>
+            <h1>Faizan Rasheed</h1>
+            <p>Full Stack Web Devloper</p>
             <div className="social-links">
               <a href="https://twitter.com/" target="_blank">
                 <i className="fa fa-twitter" />

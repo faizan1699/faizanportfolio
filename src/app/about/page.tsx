@@ -15,12 +15,12 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Your name a <span>Your Expertise</span>
+                    I am Your name a <span>Full Stack Web Devloper</span>
                   </h2>
                   <p>
-                    Hi! My name is Your Name. I am a your expertise, and I am
-                    very passionate and dedicated to my work. With 1 years
-                    experience as a your expertise, I have acquired the skills and
+                    Hi! My name is Faizan Rasheed. I am a your full stack web developer ( mern stack ), and I am
+                    very passionate and dedicated to my work. With 2 years
+                    experience as a your full stack web developer ( mern stack ), I have acquired the skills and
                     knowledge necessary to make your project a success. I enjoy
                     every step of the design process, from discussion and
                     collaboration.
@@ -37,22 +37,22 @@ const About: NextPage = () => {
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Email : <span>your@email.com</span>
+                        Email : <span>faizanrasheed169@gmail.com</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Degree : <span>SSC</span>
+                        Degree : <span>BSCS</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Phone : <span>+99 ********</span>
+                        Phone : <span>+92 303 8019169</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        City : <span>Your City</span>
+                        City : <span>Lahore</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -85,29 +85,50 @@ const About: NextPage = () => {
                     <div className="skill-item padd-15">
                       <h5>Html5</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "80%" }} />
-                        <div className="skill-percent">80%</div>
+                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div className="skill-percent">100%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
-                      <h5>Css3</h5>
+                      <h5>CSS</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "60%" }} />
-                        <div className="skill-percent">60%</div>
+                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div className="skill-percent">100%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Javascript</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "50%" }} />
-                        <div className="skill-percent">50%</div>
+                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div className="skill-percent">100%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Bootstrap</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "70%" }} />
-                        <div className="skill-percent">70%</div>
+                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div className="skill-percent">100%</div>
+                      </div>
+                    </div>
+                    <div className="skill-item padd-15">
+                      <h5>React.js</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div className="skill-percent">100%</div>
+                      </div>
+                    </div>
+                    <div className="skill-item padd-15">
+                      <h5>Node.js</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div className="skill-percent">100%</div>
+                      </div>
+                    </div>
+                    <div className="skill-item padd-15">
+                      <h5>Next.js</h5>
+                      <div className="progress">
+                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div className="skill-percent">100%</div>
                       </div>
                     </div>
                   </div>
@@ -123,15 +144,29 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 2022 to Present
                           </h6>
                           <h4 className="timeline-title">
                             Self Taught (Programming)
                           </h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Programming. I have
-                            learn Html, Css, Sass, JavaScript, Bootstrap. Now I
-                            am a Professional Web Designer..
+                            Since 2022 I started to learn Programming. I have
+                            learn Html, Css,  JavaScript, Bootstrap NODE / NEXT / REACT. Now I
+                            am a Professional Full Stack Web Developer..
+                          </p>
+                        </div>
+                     
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> 2019 to 2020
+                          </h6>
+                          <h4 className="timeline-title">
+                            Diploma in Computer Technology
+                          </h4>
+                          <p className="timeline-text">
+                             I started my journey to learn basic to advance 
+                             texhnologies about computers .  i learn computer basics.
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -139,31 +174,14 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
+                            <i className="fa fa-calendar" /> 2019 to 2021
                           </h6>
                           <h4 className="timeline-title">
-                            Diploma in Civil Engineering
+                            College Certificate
                           </h4>
                           <p className="timeline-text">
-                            From 2019 I started my journey to be a Civil
-                            Engineer on Shyamoli Ideal Polytechnic Institute. It
-                            still Running to Present.
-                          </p>
-                        </div>
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
-                        <div className="timeline-item">
-                          <div className="circle-dot" />
-                          <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2014 to 2019
-                          </h6>
-                          <h4 className="timeline-title">
-                            Secondary School Certificate
-                          </h4>
-                          <p className="timeline-text">
-                            In 2019 I passed SSC Exam from Science Group with
-                            GPA- 4.56. My school name was Patgram Anath Bondhu
-                            Govt. High School.
+                            In 2019 I passed Inter Exam from computer Science Group with
+                            930 / 1100. My college name was Govt. Post Graduate College .
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -180,11 +198,11 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to Present
+                            <i className="fa fa-calendar" /> 2019 to 2020
                           </h6>
                           <h4 className="timeline-title">Graphics Design</h4>
                           <p className="timeline-text">
-                            From 2018 I am woking on Graphics Design. The
+                            From 2019 to 2021 I gain expirience of Graphics Design. The
                             software I use Photoshop, Illustrator for Graphics
                             design.
                           </p>
@@ -194,13 +212,13 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 2022 to Present
                           </h6>
-                          <h4 className="timeline-title">Web Design</h4>
+                          <h4 className="timeline-title">Web Development</h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Coding. I have learn
-                            Html, Css, Sass, JavaScript, Bootstrap. Now I am a
-                            Professional Web Designer..
+                            Since 2022 I started to learn Coding. I have learn
+                            Html, Css, JavaScript, Bootstrap NODE / NEXT / REACT. Now I am a
+                            Professional Web Developer..
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -208,12 +226,12 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2020 to Present
+                            <i className="fa fa-calendar" /> 2023 to Present
                           </h6>
                           <h4 className="timeline-title">Wordpress</h4>
                           <p className="timeline-text">
-                            Since 2020 I started to learn Wordpress. I can
-                            install, Customize, &amp; fix bug on wordpress.{" "}
+                            Since 2023 I started to learn Wordpress. I can
+                            install, Customize, &amp; fix bug on wordpress.{" "} and build customized theme and plugins.
                           </p>
                         </div>
                         {/* Timeline Item end */}

@@ -73,8 +73,8 @@ const Sidebar = () => {
         </ul>
         <div className="copyright">
           Created with ❤️ By{" "}
-          <a href="http://alsiam.com" target="_blank" rel="noopener noreferrer">
-            Al Siam
+          <a href="/" target="_blank" rel="noopener noreferrer">
+            Faizan Rasheed
           </a>
         </div>
       </div>

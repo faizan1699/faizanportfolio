@@ -1,6 +1,52 @@
-import type { NextPage } from "next";
+"use client";
 
-const Contact: NextPage = () => {
+import axios from "axios";
+import { useState } from "react";
+
+const Contact = () => {
+
+  const [loading, setLoading] = useState(false);
+  const [inputs, setInputs] = useState({
+    name: "",
+    email: "",
+    contact: "",
+    description: ""
+  })
+
+  const handleInputChange = (e) => {
+
+    const { name, value } = e.target;
+
+    setInputs({
+      ...inputs,
+      [name]: value
+    })
+
+  }
+
+
+  const handelSendMessage = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    try {
+
+      const response = await axios.post("/api/contact", inputs)
+      console.log(response);
+      alert(response?.data?.message);
+      setLoading(false);
+
+    }
+    catch (error) {
+      console.log(error?.response?.data?.message);
+      alert(error?.response?.data?.message);
+      setLoading(false);
+    }
+
+
+  }
+
+
   return (
     <>
       <section className="contact section" id="contact">
@@ -26,7 +72,7 @@ const Contact: NextPage = () => {
                 <i className="fa fa-phone" />
               </div>
               <h4>Call Us On</h4>
-              <p>+99 **********</p>
+              <p>+92 303 8019169</p>
             </div>
             {/* contact-info-item Ended */}
             {/* contact-info-item */}
@@ -35,18 +81,21 @@ const Contact: NextPage = () => {
                 <i className="fa fa-envelope" />
               </div>
               <h4>Email</h4>
-              <p>your@email.com</p>
+              <p>faizanrasheed169@.com</p>
             </div>
             {/* contact-info-item Ended */}
           </div>
           {/* Contact Form */}
           <div className="row">
-            <form className="contact-form padd-15">
+            <form className="contact-form padd-15" onSubmit={handelSendMessage}>
               <div className="row">
                 <div className="form-item col-6 padd-15">
                   <div className="form-group">
                     <input
                       type="text"
+                      name="name"
+                      value={inputs.value}
+                      onChange={handleInputChange}
                       className="form-control"
                       placeholder="Name*"
                     />
@@ -55,39 +104,49 @@ const Contact: NextPage = () => {
                 <div className="form-item col-6 padd-15">
                   <div className="form-group">
                     <input
+                      name="email"
+                      value={inputs.email}
                       type="email"
                       className="form-control"
+                      onChange={handleInputChange}
                       placeholder="Email*"
                     />
                   </div>
                 </div>
               </div>
+             
               <div className="row">
                 <div className="form-item col-12 padd-15">
                   <div className="form-group">
                     <input
-                      type="text"
+                    name="contact"
+                      type="number"
                       className="form-control"
-                      placeholder="Subject*"
+                      onChange={handleInputChange}
+                      placeholder="phone number with country code*"
                     />
                   </div>
                 </div>
               </div>
+              
               <div className="row">
                 <div className="form-item col-12 padd-15">
                   <div className="form-group">
                     <textarea
+                      name="description"
+                      value={inputs.description}
                       className="form-control"
+                      onChange={handleInputChange}
                       placeholder="Your Message*"
-                      defaultValue={""}
                     />
                   </div>
                 </div>
               </div>
+            
               <div className="row">
                 <div className="col-12 padd-15">
                   <button type="submit" className="btn">
-                    Send Message
+                    {loading ? "loading..." : "send message"}
                   </button>
                 </div>
               </div>

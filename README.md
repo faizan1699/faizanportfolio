@@ -28,13 +28,11 @@ A free and open-source portfolio template for developers, now powered by Next.js
 
 ## Demo
 
-Visit the live demo: [urfolio.vercel.app](https://urfolio.vercel.app)
-
 ## Installation
 
 To get started, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/alsiam/urFolio.git`
+1. Clone the repository: `git clone `
 2. Navigate to the project folder: `cd urFolio`
 3. Install dependencies: `npm install`
 4. Run the development server: `npm run dev`
@@ -51,10 +49,6 @@ To get started, follow these steps:
 - **Colors:** Modify the color scheme in the `styles/globals.css` file.
 - **Fonts:** Change the fonts by updating the `styles/globals.css` file.
 - **Images:** Replace the placeholder images in the `public/img` directory with your own.
-
-## Contributing
-
-Contributions are welcome! Please check the [Contribution Guidelines](CONTRIBUTING.md) for more details.
 
 ## License
 
