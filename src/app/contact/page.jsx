@@ -74,7 +74,7 @@ const Contact = () => {
             {/* contact-info-item */}
             <div className="contact-info-item padd-15">
               <div className="icon">
-                <i className="fa fa-phone" />
+                <i className="fa fa-whatsapp" />
               </div>
               <h4>Call Us On</h4>
               <p>+92 303 8019169</p>
