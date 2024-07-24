@@ -1,52 +1,62 @@
 import { NextResponse } from "next/server";
-
 import nodemailer from "nodemailer";
 
-const femail = process.env.TO;
+const user = process.env.USER;
 
 export default async function sendEmailFunction(props) {
   try {
     const { name, email, description, contact } = props;
 
-    const transpoter = nodemailer.createTransport({
+    const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
         user: "programecodehub@gmail.com",
-        pass: "aeov nfxw scpo vyft",
+        pass: process.env.PASS,
       },
     });
 
-    const mailOption = {
+    const mailOptions = {
       from: email,
-      to: email,
-      subject: "Mail from faizan rasheed portfolio for inquiry",
+      to: "faizanrasheed169@gmail.com",
+      subject: "Mail for faizan rasheed portfolio for inquiry",
       html: `
-      <div style="border: 2px solid #02187e; max-width: 600px; margin: auto; border-radius: 25px;">
-        <div style="padding: 10px 0; background: #01125e; border-top-left-radius: 20px;border-top-right-radius: 20px;">
-            <h4 style="text-align: center; font-size: 25px; color: aliceblue;"> 
-            from faizan rasheed portfolio 
-            </h4>
+        <div style="max-width: 600px; margin: auto; border: 2px solid #02187e; border-radius: 25px; font-family: Arial, sans-serif;">
+          <table width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+              <td style="padding: 30px 0; background: #01125e; border-top-left-radius: 20px; border-top-right-radius: 20px; text-align: center;">
+                <h4 style="font-size: 25px; color: aliceblue; margin: 0;">from faizan rasheed portfolio</h4>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 50px 20px;">
+                <table width="100%" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td style="font-size: 16px; padding-bottom: 10px;"><span style="font-weight: bold">client email</span> : ${email}</td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 16px; padding-bottom: 10px;"><span style="font-weight: bold">client name</span> : ${name}</td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 16px; padding-bottom: 10px;"><span style="font-weight: bold">client contact</span> : ${contact}</td>
+                  </tr>
+                  <tr>
+                    <td style="font-size: 16px;"><span style="font-weight: bold">description</bold> : ${description}</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 40px; background: #01125e; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;"></td>
+            </tr>
+          </table>
         </div>
-        <div style="display: flex; justify-content: center; align-items-center flex-direction:column ; padding: 20px 10px">
-
-
-        <p style="font-size:16px">client name : ${name}</p>
-        <br>
-        <p style="font-size:16px">client contact : ${contact}</p>
-        <br>
-        <p style="font-size:16px">description : ${description}</p>
-          
-        </div>
-        <div
-            style="padding: 40px; background: #01125e; border-bottom-left-radius: 20px;border-bottom-right-radius: 20px;">
-        </div>
-    </div>
       `,
     };
 
-    await transpoter.sendMail(mailOption);
+    await transporter.sendMail(mailOptions);
+
   } catch (error) {
-    console.log(error?.message);
-    return NextResponse.json({ message: error?.response?.data?.message });
+    console.error("Error sending email:", error?.message);
+    return NextResponse.json({ message: error?.message });
   }
 }

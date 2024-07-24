@@ -18,14 +18,6 @@ export async function POST(req) {
         { status: 400 }
       );
     }
-    if (description.length < 30) {
-      return NextResponse.json(
-        {
-          message: "description must be 30 chracters required",
-        },
-        { status: 400 }
-      );
-    }
 
     sendEmailFunction({
       name,

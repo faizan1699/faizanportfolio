@@ -10,7 +10,7 @@ const Contact = () => {
     name: "",
     email: "",
     contact: "",
-    description: ""
+    description: "Hi I Am "
   })
 
   const handleInputChange = (e) => {
@@ -30,10 +30,8 @@ const Contact = () => {
     setLoading(true);
 
     try {
-
+      const { contact } = inputs;
       const response = await axios.post("/api/contact", inputs)
-      console.log(response);
-      alert(response?.data?.message);
       setLoading(false);
       setInputs({
         name: "",
@@ -41,6 +39,8 @@ const Contact = () => {
         contact: "",
         description: ""
       })
+      contact: ""
+      alert(response?.data?.message);
     }
     catch (error) {
       console.log(error?.response?.data?.message);
@@ -48,9 +48,7 @@ const Contact = () => {
       setLoading(false);
     }
 
-
   }
-
 
   return (
     <>
@@ -103,7 +101,8 @@ const Contact = () => {
                       onChange={handleInputChange}
                       className="form-control"
                       placeholder="Name*"
-                    />
+                      autoComplete="new-name"
+                      />
                   </div>
                 </div>
                 <div className="form-item col-6 padd-15">
@@ -115,7 +114,8 @@ const Contact = () => {
                       className="form-control"
                       onChange={handleInputChange}
                       placeholder="Email*"
-                    />
+                      autoComplete="new-email"
+                      />
                   </div>
                 </div>
               </div>
@@ -129,6 +129,7 @@ const Contact = () => {
                       className="form-control"
                       onChange={handleInputChange}
                       placeholder="phone number with country code*"
+                      autoComplete="new-contact"
                     />
                   </div>
                 </div>
