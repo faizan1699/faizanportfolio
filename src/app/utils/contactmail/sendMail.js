@@ -12,13 +12,13 @@ export default async function sendEmailFunction(props) {
       service: "gmail",
       auth: {
         user: "programecodehub@gmail.com",
-       pass:"aeov nfxw scpo vyft",
+        pass: "aeov nfxw scpo vyft",
       },
     });
 
     const mailOption = {
       from: email,
-      to: femail,
+      to: email,
       subject: "Mail from faizan rasheed portfolio for inquiry",
       html: `
       <div style="border: 2px solid #02187e; max-width: 600px; margin: auto; border-radius: 25px;">
