@@ -35,7 +35,12 @@ const Contact = () => {
       console.log(response);
       alert(response?.data?.message);
       setLoading(false);
-
+      setInputs({
+        name: "",
+        email: "",
+        contact: "",
+        description: ""
+      })
     }
     catch (error) {
       console.log(error?.response?.data?.message);
@@ -114,12 +119,12 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-             
+
               <div className="row">
                 <div className="form-item col-12 padd-15">
                   <div className="form-group">
                     <input
-                    name="contact"
+                      name="contact"
                       type="number"
                       className="form-control"
                       onChange={handleInputChange}
@@ -128,7 +133,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="row">
                 <div className="form-item col-12 padd-15">
                   <div className="form-group">
@@ -142,7 +147,7 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-            
+
               <div className="row">
                 <div className="col-12 padd-15">
                   <button type="submit" className="btn">
