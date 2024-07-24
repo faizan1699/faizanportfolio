@@ -86,7 +86,7 @@ const Contact = () => {
                 <i className="fa fa-envelope" />
               </div>
               <h4>Email</h4>
-              <p>faizanrasheed169@.com</p>
+              <p>faizanrasheed169@gmail.com</p>
             </div>
             {/* contact-info-item Ended */}
           </div>
