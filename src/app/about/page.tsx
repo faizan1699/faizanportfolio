@@ -1,5 +1,7 @@
 import type { NextPage } from "next";
 
+// import resume from '../../components/cv/FaizanRasheed__full stack web developer.pdf';
+
 const About: NextPage = () => {
   return (
     <main>
@@ -32,7 +34,7 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="info-item padd-15">
                       <p>
-                        Website : <span>www.urfolio.vercel.app</span>
+                        Website : <span>not available</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">
@@ -64,18 +66,19 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="buttons padd-15">
                       <a
-                        href="/assets/docs/resume.pdf"
-                        target="_target"
+                        href="https://drive.google.com/file/d/1W_LzdYPNmWI1LmppUJrEjjtgm-dNxcN4/view?usp=drive_link"
+                       target="_blank"
                         className="btn"
                       >
                         Download CV
                       </a>
                       <a
-                        href="#contact"
+                        href="https://www.upwork.com/freelancers/~01fddb691788abab17"
+                        target="_blank"
                         data-section-index={0}
                         className="btn hire-me"
                       >
-                        Hire Me
+                        Hire Me on upwork
                       </a>
                     </div>
                   </div>
