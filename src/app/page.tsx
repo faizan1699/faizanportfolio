@@ -14,19 +14,12 @@ export default async function Home() {
             <h1>Faizan Rasheed</h1>
             <p>Full Stack Web Devloper</p>
             <div className="social-links">
-              <a href="https://twitter.com/" target="_blank">
-                <i className="fa fa-twitter" />
-              </a>
-              <a href="https://facebook.com/" target="_blank">
-                <i className="fa fa-facebook" />
-              </a>
-              <a href="https://github.com/" target="_blank">
+                        
+              <a href="https://github.com/faizan1699" target="_blank">
                 <i className="fa fa-github" />
               </a>
-              <a href="https://instagram.com/" target="_blank">
-                <i className="fa fa-instagram" />
-              </a>
-              <a href="https://linkedin.com/in/" target="_blank">
+
+              <a href="https://www.linkedin.com/in/faizan-rasheed-7938a3252/" target="_blank">
                 <i className="fa fa-linkedin" />
               </a>
             </div>
