@@ -17,7 +17,7 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Your name a <span>Full Stack Web Devloper</span>
+                    I am Your Faizan Rasheed a <span>Full Stack Web Devloper</span>
                   </h2>
                   <p>
                     Hi! My name is Faizan Rasheed. I am a your full stack web developer ( mern stack ), and I am
