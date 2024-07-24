@@ -27,7 +27,7 @@ export default async function sendEmailFunction(props) {
             from faizan rasheed portfolio 
             </h4>
         </div>
-        <div style="display: flex; justify-content: center; align-items-center flex-direction:column ; padding: 20px 10px ">
+        <div style="display: flex; justify-content: center; align-items-center flex-direction:column ; padding: 20px 10px">
 
 
         <p style="font-size:16px">client name : ${name}</p>
