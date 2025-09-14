@@ -17,15 +17,17 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="about-text padd-15">
                   <h2>
-                    I am Your Faizan Rasheed a <span>Full Stack Web Devloper</span>
+                    I am Your Faizan Rasheed a{" "}
+                    <span>Full Stack Web Devloper</span>
                   </h2>
                   <p>
-                    Hi! My name is Faizan Rasheed. I am a your full stack web developer ( mern stack ), and I am
-                    very passionate and dedicated to my work. With 2 years
-                    experience as a your full stack web developer ( mern stack ), I have acquired the skills and
-                    knowledge necessary to make your project a success. I enjoy
-                    every step of the design process, from discussion and
-                    collaboration.
+                    Hi! My name is Faizan Rasheed. I am a your full stack web
+                    developer ( mern stack ), and I am very passionate and
+                    dedicated to my work. With 2 years experience as a your full
+                    stack web developer ( mern stack ), I have acquired the
+                    skills and knowledge necessary to make your project a
+                    success. I enjoy every step of the design process, from
+                    discussion and collaboration.
                   </p>
                 </div>
               </div>
@@ -67,7 +69,7 @@ const About: NextPage = () => {
                     <div className="buttons padd-15">
                       <a
                         href="https://drive.google.com/file/d/1W_LzdYPNmWI1LmppUJrEjjtgm-dNxcN4/view?usp=drive_link"
-                       target="_blank"
+                        target="_blank"
                         className="btn"
                       >
                         Download CV
@@ -88,49 +90,70 @@ const About: NextPage = () => {
                     <div className="skill-item padd-15">
                       <h5>Html5</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div
+                          className="progress-in"
+                          style={{ width: "100%" }}
+                        />
                         <div className="skill-percent">100%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>CSS</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div
+                          className="progress-in"
+                          style={{ width: "100%" }}
+                        />
                         <div className="skill-percent">100%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Javascript</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div
+                          className="progress-in"
+                          style={{ width: "100%" }}
+                        />
                         <div className="skill-percent">100%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Bootstrap</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div
+                          className="progress-in"
+                          style={{ width: "100%" }}
+                        />
                         <div className="skill-percent">100%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>React.js</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div
+                          className="progress-in"
+                          style={{ width: "100%" }}
+                        />
                         <div className="skill-percent">100%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Node.js</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div
+                          className="progress-in"
+                          style={{ width: "100%" }}
+                        />
                         <div className="skill-percent">100%</div>
                       </div>
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Next.js</h5>
                       <div className="progress">
-                        <div className="progress-in" style={{ width: "100%" }} />
+                        <div
+                          className="progress-in"
+                          style={{ width: "100%" }}
+                        />
                         <div className="skill-percent">100%</div>
                       </div>
                     </div>
@@ -139,7 +162,7 @@ const About: NextPage = () => {
               </div>
               <div className="row">
                 <div className="education padd-15">
-                  <h3 className="title">Education</h3>
+                  <h3 className="title">Bachelor</h3>
                   <div className="row">
                     <div className="timeline-box padd-15">
                       <div className="timeline shadow-dark">
@@ -147,33 +170,38 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2022 to Present
+                            <i className="fa fa-calendar" /> 09-2025
                           </h6>
                           <h4 className="timeline-title">
-                            Self Taught (Programming)
+                            Bs Information Technology
                           </h4>
                           <p className="timeline-text">
-                            Since 2022 I started to learn Programming. I have
-                            learn Html, Css,  JavaScript, Bootstrap NODE / NEXT / REACT. Now I
-                            am a Professional Full Stack Web Developer..
+                            Enthusiastic BS IT student with skills in
+                            programming, databases, and networking. Passionate
+                            about technology, problem-solving, and learning
+                            modern tools to build efficient digital solutions
+                            and contribute to innovation.
                           </p>
                         </div>
-                     
+
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2019 to 2020
+                            <i className="fa fa-calendar" /> 02-2022
                           </h6>
                           <h4 className="timeline-title">
-                            Diploma in Computer Technology
+                            Bachelor Of Buisiness Administration{" "}
+                            {"(Technology Management)"}
                           </h4>
                           <p className="timeline-text">
-                             I started my journey to learn basic to advance 
-                             texhnologies about computers .  i learn computer basics.
+                            Motivated BBA Technology Management student with
+                            skills in business strategy, technology integration,
+                            and leadership. Passionate about leveraging IT to
+                            optimize operations, improve decision-making, and
+                            drive organizational innovation and growth.
                           </p>
                         </div>
-                        {/* Timeline Item end */}
-                        {/* Timeline Item */}
+
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
@@ -183,8 +211,9 @@ const About: NextPage = () => {
                             College Certificate
                           </h4>
                           <p className="timeline-text">
-                            In 2019 I passed Inter Exam from computer Science Group with
-                            930 / 1100. My college name was Govt. Post Graduate College .
+                            In 2019 I passed Inter Exam from computer Science
+                            Group with 930 / 1100. My college name was Govt.
+                            Post Graduate College .
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -205,9 +234,23 @@ const About: NextPage = () => {
                           </h6>
                           <h4 className="timeline-title">Graphics Design</h4>
                           <p className="timeline-text">
-                            From 2019 to 2021 I gain expirience of Graphics Design. The
-                            software I use Photoshop, Illustrator for Graphics
-                            design.
+                            From 2019 to 2021 I gain expirience of Graphics
+                            Design. The software I use Photoshop, Illustrator
+                            for Graphics design.
+                          </p>
+                        </div>
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> 01-2021 to 09-2022
+                          </h6>
+                          <h4 className="timeline-title">Intern Ship</h4>
+                          <p className="timeline-text">
+                            Completed internship at DIT Office, Islamia
+                            University of Bahawalpur. Gained hands-on experience
+                            in IT support, system maintenance, networking, and
+                            database management while enhancing problem-solving,
+                            communication, and teamwork skills.
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -215,13 +258,15 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2022 to Present
+                            <i className="fa fa-calendar" /> 11-2022 To 12-2022
                           </h6>
-                          <h4 className="timeline-title">Web Development</h4>
+                          <h4 className="timeline-title">
+                            Web Development {"(Crexed Bahawalpur)"}
+                          </h4>
                           <p className="timeline-text">
                             Since 2022 I started to learn Coding. I have learn
-                            Html, Css, JavaScript, Bootstrap NODE / NEXT / REACT. Now I am a
-                            Professional Web Developer..
+                            Html, Css, JavaScript, Bootstrap NODE / NEXT /
+                            REACT. Now I am a Professional Web Developer..
                           </p>
                         </div>
                         {/* Timeline Item end */}
@@ -229,15 +274,36 @@ const About: NextPage = () => {
                         <div className="timeline-item">
                           <div className="circle-dot" />
                           <h6 className="timeline-date">
-                            <i className="fa fa-calendar" /> 2023 to Present
+                            <i className="fa fa-calendar" /> 01-2023 to 11-2023
                           </h6>
-                          <h4 className="timeline-title">Wordpress</h4>
+                          <h4 className="timeline-title">
+                            FinTech Solution {"(Bahawalpur)"}
+                          </h4>
                           <p className="timeline-text">
-                            Since 2023 I started to learn Wordpress. I can
-                            install, Customize, &amp; fix bug on wordpress.{" "} and build customized theme and plugins.
+                            Worked as MERN Stack Developer Intern at Fintech
+                            Bahawalpur, gaining practical experience in building
+                            web applications, REST APIs, and database
+                            integration while improving problem-solving,
+                            teamwork, and modern development skills.
                           </p>
                         </div>
-                        {/* Timeline Item end */}
+                        <div className="timeline-item">
+                          <div className="circle-dot" />
+                          <h6 className="timeline-date">
+                            <i className="fa fa-calendar" /> 11-2024 to 08-2025
+                          </h6>
+                          <h4 className="timeline-title">
+                            Cyfy Technology Bahawalpur
+                          </h4>
+                          <p className="timeline-text">
+                            Served as Lead Frontend Developer at Cyfy
+                            Technology, managing UI development, optimizing
+                            performance, and guiding a team to deliver
+                            responsive, user-friendly applications with modern
+                            frameworks and best coding practices.
+                          </p>
+                        </div>
+       
                       </div>
                     </div>
                   </div>

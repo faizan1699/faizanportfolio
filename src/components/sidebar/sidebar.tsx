@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const Sidebar = () => {
-
   const pathUrl = usePathname();
   const [open, setOpen] = useState(false);
 
@@ -15,7 +14,6 @@ const Sidebar = () => {
   const handleClose = () => {
     setOpen(false);
   };
-
 
   return (
     <aside className={`aside ${open ? "open" : ""}`}>
@@ -73,7 +71,7 @@ const Sidebar = () => {
           </li>
         </ul>
         <div className="copyright">
-          Created with ❤️ By{" "}
+          Created with By{" "}
           <a href="/" target="_blank" rel="noopener noreferrer">
             Faizan Rasheed
           </a>
