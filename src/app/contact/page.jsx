@@ -150,7 +150,7 @@ const Contact = () => {
 
               <div className="row">
                 <div className="col-12 padd-15">
-                  <button type="submit" className="btn">
+                  <button type="submit" className="btn" disabled  title="this feature not available">
                     {loading ? "loading..." : "send message"}
                   </button>
                 </div>

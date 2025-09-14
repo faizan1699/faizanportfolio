@@ -10,7 +10,7 @@ export default async function sendEmailFunction(props) {
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: "programecodehub@gmail.com",
+        user: "faizanrasheed169@gmail.com",
         pass: process.env.PASS,
       },
     });
@@ -54,7 +54,6 @@ export default async function sendEmailFunction(props) {
     };
 
     await transporter.sendMail(mailOptions);
-
   } catch (error) {
     console.error("Error sending email:", error?.message);
     return NextResponse.json({ message: error?.message });

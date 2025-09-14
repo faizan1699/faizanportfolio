@@ -1,7 +1,5 @@
 import type { NextPage } from "next";
 
-// import resume from '../../components/cv/FaizanRasheed__full stack web developer.pdf';
-
 const About: NextPage = () => {
   return (
     <main>
@@ -21,13 +19,16 @@ const About: NextPage = () => {
                     <span>Full Stack Web Devloper</span>
                   </h2>
                   <p>
-                    Hi! My name is Faizan Rasheed. I am a your full stack web
-                    developer ( mern stack ), and I am very passionate and
-                    dedicated to my work. With 2 years experience as a your full
-                    stack web developer ( mern stack ), I have acquired the
-                    skills and knowledge necessary to make your project a
-                    success. I enjoy every step of the design process, from
-                    discussion and collaboration.
+                    Hi! My name is Faizan Rasheed. I am a passionate and
+                    dedicated Full Stack Web Developer (MERN Stack) with 4 years
+                    of experience. Over the years, I’ve gained strong expertise
+                    in MongoDB, PostgreSQL, Express.js, React.js, and Node.js,
+                    along with modern tools and frameworks. I have acquired the
+                    skills and knowledge necessary to build scalable, efficient,
+                    and user-friendly applications. I enjoy every step of the
+                    development process—from discussions and planning to
+                    collaboration, coding, and deployment—ensuring every
+                    project’s success.
                   </p>
                 </div>
               </div>
@@ -68,7 +69,7 @@ const About: NextPage = () => {
                   <div className="row">
                     <div className="buttons padd-15">
                       <a
-                        href="https://drive.google.com/file/d/1W_LzdYPNmWI1LmppUJrEjjtgm-dNxcN4/view?usp=drive_link"
+                        href="https://drive.google.com/file/d/1YJdGLK-O1TZJhx1ZPnQ6BZvR-WXSnArJ/view?usp=sharing"
                         target="_blank"
                         className="btn"
                       >
@@ -149,6 +150,26 @@ const About: NextPage = () => {
                     </div>
                     <div className="skill-item padd-15">
                       <h5>Next.js</h5>
+                      <div className="progress">
+                        <div
+                          className="progress-in"
+                          style={{ width: "100%" }}
+                        />
+                        <div className="skill-percent">100%</div>
+                      </div>
+                    </div>
+                    <div className="skill-item padd-15">
+                      <h5>Mongo DB</h5>
+                      <div className="progress">
+                        <div
+                          className="progress-in"
+                          style={{ width: "100%" }}
+                        />
+                        <div className="skill-percent">100%</div>
+                      </div>
+                    </div>
+                    <div className="skill-item padd-15">
+                      <h5>Postgres SQL</h5>
                       <div className="progress">
                         <div
                           className="progress-in"
@@ -303,7 +324,6 @@ const About: NextPage = () => {
                             frameworks and best coding practices.
                           </p>
                         </div>
-       
                       </div>
                     </div>
                   </div>
