@@ -70,12 +70,6 @@ const Sidebar = () => {
             </Link>
           </li>
         </ul>
-        <div className="copyright">
-          Created with By{" "}
-          <a href="/" target="_blank" rel="noopener noreferrer">
-            Faizan Rasheed
-          </a>
-        </div>
       </div>
     </aside>
   );
