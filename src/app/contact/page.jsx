@@ -30,7 +30,6 @@ const Contact = () => {
     setLoading(true);
 
     try {
-      const { contact } = inputs;
       const response = await axios.post("/api/contact", inputs)
       setLoading(false);
       setInputs({
