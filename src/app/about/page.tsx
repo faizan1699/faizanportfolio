@@ -35,11 +35,7 @@ const About: NextPage = () => {
               <div className="row">
                 <div className="personal-info padd-15">
                   <div className="row">
-                    <div className="info-item padd-15">
-                      <p>
-                        Website : <span>not available</span>
-                      </p>
-                    </div>
+                    
                     <div className="info-item padd-15">
                       <p>
                         Email : <span>faizanrasheed169@gmail.com</span>
@@ -47,7 +43,7 @@ const About: NextPage = () => {
                     </div>
                     <div className="info-item padd-15">
                       <p>
-                        Degree : <span>BSCS</span>
+                        Degree : <span>BS Information Technology</span>
                       </p>
                     </div>
                     <div className="info-item padd-15">

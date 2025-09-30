@@ -1,7 +1,12 @@
 import { NextPage } from "next";
-
-// Portfolio data — placeholder projects for now
+import img1 from '@/assets/img-1.png';
 const portfolioData = [
+  {
+    imgSrc: img1.src,
+    category: "web development",
+    title: "University Management System",
+    url: "https://aku.umsoncloud.com/e-portal/login",
+  },
   {
     imgSrc: "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d",
     category: "web development",
