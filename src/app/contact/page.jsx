@@ -101,7 +101,7 @@ const Contact = () => {
                       className="form-control"
                       placeholder="Name*"
                       autoComplete="new-name"
-                      />
+                    />
                   </div>
                 </div>
                 <div className="form-item col-6 padd-15">
@@ -114,7 +114,7 @@ const Contact = () => {
                       onChange={handleInputChange}
                       placeholder="Email*"
                       autoComplete="new-email"
-                      />
+                    />
                   </div>
                 </div>
               </div>
@@ -150,7 +150,7 @@ const Contact = () => {
 
               <div className="row">
                 <div className="col-12 padd-15">
-                  <button type="submit" className="btn" disabled  title="this feature not available">
+                  <button type="submit" className="btn" title="this feature not available">
                     {loading ? "loading..." : "send message"}
                   </button>
                 </div>
