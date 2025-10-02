@@ -1,5 +1,7 @@
 import { NextPage } from "next";
 import img1 from "@/assets/img-1.png";
+import sd from "@/assets/3d.png";
+
 const portfolioData = [
   {
     imgSrc: img1.src,
@@ -14,10 +16,10 @@ const portfolioData = [
     url: "https://github.com/faizan1699/portfolio-website",
   },
   {
-    imgSrc: "https://images.unsplash.com/photo-1587620962725-abab7fe55159",
-    category: "full stack",
-    title: "MERN CRUD App",
-    url: "https://github.com/faizan1699/mern-crud-app",
+    imgSrc: sd.src,
+    category: "frontend",
+    title: "3d Product Showcase",
+    url: "https://faizan1699.github.io/",
   },
   {
     imgSrc: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
