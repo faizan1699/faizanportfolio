@@ -27,6 +27,12 @@ const portfolioData = [
     title: "REST API with Express.js",
     url: "https://github.com/faizan1699/express-api",
   },
+  {
+    imgSrc: "https://images.unsplash.com/photo-1498050108023-c5249f4df085",
+    category: "frontend",
+    title: "Ecommerce App Rover",
+    url: "https://github.com/faizan1699/ecommerve-app-frontend.git",
+  },
 ];
 
 const Portfolio: NextPage = () => {
